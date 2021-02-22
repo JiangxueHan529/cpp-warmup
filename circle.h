@@ -15,8 +15,11 @@ public:
 	Circle();
 	Circle(float radius);
 	Circle(const Circle& obj);
-	float getter();
-	void setter(float radius);
+	Circle& operator=(const Circle& obj);
+	Circle& operator+(const Circle& obj);
+	friend std::ostream& operator<<(std::ostream& os, const Circle& obj);
+	float getRadius();
+	void setRadius(float radius);
 	float computeArea();
 };
 

@@ -13,11 +13,27 @@ Circle::Circle(const Circle& c) {
 	radius = c.radius;
 }
 
-float Circle::getter() {
+Circle& Circle::operator=(const Circle& obj) {
+	radius = obj.radius;
+	return *this;
+}
+
+Circle& Circle::operator+(const Circle& obj) {
+	radius += obj.radius;
+	return *this;
+}
+
+std::ostream& operator<<(std::ostream& os, const Circle& obj) {
+	os << obj.radius;
+	return os;
+}
+
+
+float Circle::getRadius() {
 	return radius;
 }
 
-void Circle::setter(float r) {
+void Circle::setRadius(float r) {
 	radius = r;
 }
 
