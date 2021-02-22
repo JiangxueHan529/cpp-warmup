@@ -1,4 +1,0 @@
-C:/Users/juvia/source/repos/cpp-warmup/CMakeFiles/fizzbuzz.dir
-C:/Users/juvia/source/repos/cpp-warmup/CMakeFiles/testcircle.dir
-C:/Users/juvia/source/repos/cpp-warmup/CMakeFiles/ALL_BUILD.dir
-C:/Users/juvia/source/repos/cpp-warmup/CMakeFiles/ZERO_CHECK.dir
